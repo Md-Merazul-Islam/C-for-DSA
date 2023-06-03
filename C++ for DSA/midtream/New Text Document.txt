@@ -1,0 +1,23 @@
+Stack memory c++ is a special place in computer memory that stores temporary variables created by a function. A new stack frame is created during each function call, which contains information including function parameters, local variables, and return addresses, and stack memory is emptied when the call ends.
+
+
+
+Heap memory is used for dynamic memory allocation in programs. The new function is used for heap memory allocation. Variables created in heap memory can be accessed from anywhere in the program. It can be used to reduce the size of the
+
+
+ array.
+
+
+
+
+
+
+ডায়নামিক অ্যাটিটিউড করার জন্য প্রথমে আমাদের ডাটা টাইপ নিতে হবে এরপর পয়েন্টের নাম এরপর ইকুয়াল (=)  দিয়ে   (new) দিতে হবে এবং ডাটা টাইপ এর সাইজ উল্লেখ করে দিতে হবে
+
+ডায়নামিক এর ব্যবহারের সুবিধা হলো:
+আয় সাইজ করা যাবে কমানো যায়
+ ফাংশন থেকে এরে কে রিটার্ন করা যায়
+
+
+
+আমরা Class এবং Objectকে একটি শ্রেণীর শিক্ষার্থীদের সাথে তুলনা করতে পারি । এখানে শিক্ষার্থী (student) হলো Classs. আর শিক্ষার্থীদের নাম (name ,roll, height, exam_number ) এসবকে আমরা Object হিসেবে ধরতে পারি ।
